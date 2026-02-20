@@ -1,0 +1,11 @@
+name: Email Check Workflow
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2005669@ds.study.iitm.ac.in
+        run: echo "GitHub Action working"
